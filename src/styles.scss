@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+
+// 8 Pixel Grid System
+.spacing {
+    padding: 8px;
+    &-xs{ padding: 2px; }
+    &-sm{ padding: 4px; }
+    &-md{ padding: 8px; }
+    &-lg{ padding: 16px; }
+    &-xl{ padding: 32px; }
+
+    &-top {
+        padding-top: 8px;
+        &-xs{ padding-top: 2px; }
+        &-sm{ padding-top: 4px; }
+        &-md{ padding-top: 8px; }
+        &-lg{ padding-top: 16px; }
+        &-xl{ padding-top: 32px; }
+    }
+
+    &-bottom {
+        padding-bottom: 8px;
+        &-xs{ padding-bottom: 2px; }
+        &-sm{ padding-bottom: 4px; }
+        &-md{ padding-bottom: 8px; }
+        &-lg{ padding-bottom: 16px; }
+        &-xl{ padding-bottom: 32px; }
+    }
+
+    &-right {
+        padding-right: 8px;
+        &-xs{ padding-right: 2px; }
+        &-sm{ padding-right: 4px; }
+        &-md{ padding-right: 8px; }
+        &-lg{ padding-right: 16px; }
+        &-xl{ padding-right: 32px; }
+    }
+
+    &-left {
+        padding-left: 8px;
+        &-xs{ padding-left: 2px; }
+        &-sm{ padding-left: 4px; }
+        &-md{ padding-left: 8px; }
+        &-lg{ padding-left: 16px; }
+        &-xl{ padding-left: 32px; }
+    }
+
+    &-vertical {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        &-xs{ padding-top: 2px; padding-bottom: 2px; }
+        &-sm{ padding-top: 4px; padding-bottom: 4px; }
+        &-md{ padding-top: 8px; padding-bottom: 8px; }
+        &-lg{ padding-top: 16px; padding-bottom: 16px; }
+        &-xl{ padding-top: 32px; padding-bottom: 32px; }
+    }
+
+    &-horizontal {
+        padding-left: 8px;
+        padding-right: 8px;
+        &-xs{ padding-left: 2px; padding-right: 2px; }
+        &-sm{ padding-left: 4px; padding-right: 4px; }
+        &-md{ padding-left: 8px; padding-right: 8px; }
+        &-lg{ padding-left: 16px; padding-right: 16px; }
+        &-xl{ padding-left: 32px; padding-right: 32px; }
+    }
+}
+
+.container {
+    background:red;
+    &.desc{
+       background:blue;
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "editor.renderWhitespace": "all",
+    "tslint.rulesDirectory": "./node_modules/codelyzer",
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
